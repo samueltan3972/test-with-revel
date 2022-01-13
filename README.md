@@ -3,7 +3,18 @@
 This revel project is used for basic framework review with performance analysis that can be used as reference to decide on the framework to use in microservices. To know more information, visit [Performance Result](https://github.com/samueltan3972/framework-review)
 
 
-### Run
+## RUN
+Install prerequisite before running the project. 
+[Golang](https://go.dev/)
+[Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+Revel 
+```
+go get github.com/revel/revel
+go get github.com/revel/cmd/revel
+```
+
+Visit [Getting Started with Revel](http://revel.github.io/tutorial/gettingstarted.html) if you have any problem with the installation.
+
 ```
 revel run -a test-with-revel
 ```
