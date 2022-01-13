@@ -4,10 +4,10 @@ This revel project is used for basic framework review with performance analysis 
 
 
 ## RUN
-Install prerequisite before running the project. 
-[Golang](https://go.dev/)
-[Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
-Revel 
+Install prerequisite before running the project:
+- [Golang](https://go.dev/)
+- [Git](http://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+- Revel 
 ```
 go get github.com/revel/revel
 go get github.com/revel/cmd/revel
