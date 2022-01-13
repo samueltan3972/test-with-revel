@@ -15,6 +15,8 @@ go get github.com/revel/cmd/revel
 
 Visit [Getting Started with Revel](http://revel.github.io/tutorial/gettingstarted.html) if you have any problem with the installation.
 
+To run: 
+
 ```
 revel run -a test-with-revel
 ```
