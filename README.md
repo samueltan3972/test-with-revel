@@ -1,43 +1,27 @@
-# Welcome to Revel
+# Test with Revel (Golang)
 
-A high-productivity web framework for the [Go language](http://www.golang.org/).
+This revel project is used for basic framework review with performance analysis that can be used as reference to decide on the framework to use in microservices. To know more information, visit [Performance Result](https://github.com/samueltan3972/framework-review)
 
 
-### Start the web server:
-
-    revel run -a test-with-revel
+### Run
+```
+revel run -a test-with-revel
+```
 
 ### Docker
+```
+docker build -t seanhao1233/test-with-revel .
+docker run -p 8080:8080 seanhao1233/test-with-revel
+```
 
-    docker build -t seanhao1233/test-with-revel .
+## View Result
 
-    docker run -p 8080:8080 seanhao1233/test-with-revel
+View the result at http://localhost:8080
+it comes with 3 API end point
+- /hello : return a simple hello world message
+- /database : perform all database CRUD operation
+- /fibonacci : compute and return first 5,000 fibonacci numbers
 
-### Go to http://localhost:8080/ and you'll see:
-
-    "It works"
-
-## Code Layout
-
-The directory structure of a generated Revel application:
-
-    conf/             Configuration directory
-        app.conf      Main app configuration file
-        routes        Routes definition file
-
-    app/              App sources
-        init.go       Interceptor registration
-        controllers/  App controllers go here
-        views/        Templates directory
-
-    messages/         Message files
-
-    public/           Public static assets
-        css/          CSS files
-        js/           Javascript files
-        images/       Image files
-
-    tests/            Test suites
 
 
 ## Help
